@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            p1::first-letter {
+                font-family: Bold;
+
+                color: #a00c3b;
+            }
+
+            p1 {
+                font-size: 60px;
+                padding-right: 485px
+            }
+
+        </style>
+        <script src="https://kit.fontawesome.com/3baacefde0.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <p1 class="logo">Pratiksha.</p1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home<a></li>
+                        <li><a href="#about">About<a></li>
+                       <li><a href="#">Resume<a></li>
+                        <li><a href="#Skills">Skills<a></li> 
+                        <li><a href="#projects">Projects<a></li>
+                        <li><a href="#contact">Contact<a></li>
+                            
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    
+                <i class="fa-solid fa-bars"  onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h4>Programmer and Front end Developer</h4>
+                    <h4>Hi, My Name is <span>Pratiksha Rajpoot</span><br> From Bhopal,India</h4>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/Prat4.png" alt="">
+
+
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me<br></h1>
+
+                        <p>I am a final year undergraduate student of the Department of Computer Science and
+                            Engineering,Laxmi Narain College Of Technology, Bhopal, India. I was born
+                            in Begumganj,Mp.
+                            I was fortunate enough to know from a young age that I wanted to be an engineer. The
+                            engineering way of thinking came naturally to me. What I didn't know was what type of
+                            engineer I wanted to be. When push came to shove, I chose Software Engineering
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')"><b>Skills</b></p>
+                            <p class="tab-links" onclick="opentab('Experience')"><b>Experience</b></p>
+                            <p class="tab-links" onclick="opentab('Education')"><b>Education</b></p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills"><ol>
+                                <li><span>Java and Python.</span><br>As a Programming Language</li>
+                                <li><span>Html, CSS and Javascript</span><br>for Front end Development</li>
+                                <li><span>Django Framework </span><br>Python </li></ol>
+                           
+                        </div>
+                        <div class="tab-contents" id="Experience" ><ol>
+                            <li><span>International Hackathon 2023,Uttrakhand</span><br>It was a 24-hour international hackathon organized by the Uttaranchal Univercity(Dehradun).I participated in the hackathon with five other students. We were given a problem statement and had to come up with a solution within 24 hours. We worked hard and were able to develop a multiservice website of House keeping services. We secured the <span>Third position</span> in the competition. It was a great experience and I learned a lot about working under pressure, collaborating with others, and thinking creatively.</li>
+                            <li><span>MP Police Hackathon 2022</span><br>  This Madhya Pradesh Police Hackathon 2022 was organised in association with the Jai Narain College of Technology, Bhopal. I successfully led a team of 3 members for this hackathon. We worked on Integrating CCTV at public and Semi-Public spaces. We didn’t win but learnt a lot.</li>
+                            <li><span>India international Science Festival(IISF) 2023</span><br>IISf volunteer 2023 was a life-changing experience. I got to work with amazing people from all over the world, and I learned so much about different cultures. I also got to see firsthand the impact that IISf has on young people, and it was incredibly inspiring. I would highly recommend volunteering for IISf to anyone who is looking for a rewarding and unforgettable experience.</li></ol>
+                       
+                    </div>
+                    <div class="tab-contents" id="Education"><ol>
+                        <li><span>Graduating in 2024</span><br>BTech(Computer Science Engineering) from LNCT Bhopal </li>
+                        <li><span>2020</span><br>12th From St. Thomas Convent Sr,Sec School Begumganj(CBSE Board)</li>
+                        <li><span>2018 </span><br>10th From St. Thomas Convent Sr,Sec School Begumganj(CBSE Board)</li></ol>
+                   
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div><i class="fa-brands fa-python"></i>
+                    <h2>IceCream Shop </h2>
+                    
+                    <p>A simple website containing various flavour of Icecreams designed Using Django Framework .So enjoy delicious ice cream at my shop, built with HTML, CSS, and Django. We use fresh ingredients and offer a variety of flavors.</p>
+                    <!-- <a href="https://metempirical-discov.000webhostapp.com/">Link of My Project</a> -->
+                </div>
+
+                <div><i class="fa-solid fa-dice"></i>
+                    <h2>DiceGame  </h2>
+                   
+                    <p>A simple dice game built with HTML, CSS, and JavaScript. The user clicks on a refresh button to roll the dice, and the result is displayed on the screen. The player with the highest score wins the game.</p>
+                     <a href="https://metempirical-discov.000webhostapp.com/">Project link</a>
+                </div>
+                <div><i class="fa-solid fa-code"></i>
+                    <h2>Calculator  </h2>
+
+                    <p>A simple calculator created with HTML, CSS, and JavaScript. The user can perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator also has a clear button to clear the input fields.</p>
+                     <!-- <a href="https://metempirical-discov.000webhostapp.com/">Link of My Project</a> -->
+                </div>
+
+                <div><i class="fa-solid fa-list"></i>
+                    <h2>To-do List  </h2>
+                   
+                    <p>A to-do list created with HTML, CSS, and JavaScript allows users to add, edit, and delete tasks. The list can be styled to match the user's preferences, and JavaScript can be used to add functionality such as drag-and-drop and notifications.</p>
+                     <!-- <a href="https://metempirical-discov.000webhostapp.com/">Link of My Project</a> -->
+                </div>
+
+
+            </div>
+        </div>
+     
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> pratiksharajpootxx@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 7828764211</p>
+                    <div class="social-icon">
+                        <a href="https://github.com/Pratiksharajpoot"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100087795590744"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/pratiksha-rajpoot-356548218/"><i class="fa-brands fa-linkedin"></i></a>
+                         <a href=""><i class="fa-brands fa-twitter"></i></a>
+                         <a href=""><i class="https://icons8.com/icon/AbQBhN9v62Ob/geeksforgeeks"></i></a>
+                        
+                    </div>
+                    <a href="<i class=fa-solid fa-heart></i>" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Designed By Pratiksha  <i class="fa-solid fa-heart"></i></p>
+
+        </div>
+    </div>
+
+<script>
+  var tablinks=document.getElementsByClassName("tab-links");
+  var tabcontents=document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+   }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+    sidemenu.style.right="0";
+    
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+        }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyQfowd_LpC6HcZMs1HVAlLaCAkTSOxcUWvAMkJqJKggOVAecSuy6kJ-RpKqjjnBRTsKg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message send successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+
+</html>
